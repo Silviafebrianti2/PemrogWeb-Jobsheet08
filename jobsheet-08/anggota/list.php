@@ -8,7 +8,7 @@ unset($_SESSION['flash']);
 
 $daftarAnggota = $pdo->query("SELECT * FROM anggota ORDER BY id DESC")->fetchAll(PDO::FETCH_ASSOC);
 ?>
-        <section>
+       <section>
             <h2>Daftar Anggota</h2>
 
             <?php if ($flash): ?>
