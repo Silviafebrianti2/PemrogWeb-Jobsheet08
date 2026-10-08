@@ -15,11 +15,11 @@ unset($_SESSION['flash']);
             <form id="form-tambah" method="post" action="proses_tambah.php">
                 <p>
                     <label for="nama">Nama</label><br>
-                    <input type="text" id="nama" name="nama" required>
+                    <input type="text" id="nama" name="nama">
                 </p>
                 <p>
                     <label for="no_anggota">No. Anggota</label><br>
-                    <input type="text" id="no_anggota" name="no_anggota" required>
+                    <input type="text" id="no_anggota" name="no_anggota">
                 </p>
                 <p>
                     <label for="alamat">Alamat</label><br>
